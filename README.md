@@ -7,7 +7,7 @@ For A.  With the given **xyz coordinate values for points** and **attribute valu
 >   *ellipsoidfit_residuals.m*, *ellipsoidfit_simple.m*, *is_ellipsoid.m*,
 >   *rot2quat.m*, *quat2rot.m*, *plot_ellipsoid.m*, using **xyz.xls** and point
 >   **attribute.xls** as inputs and outputting a 4D figure and a fitted figure.
-
+# 
 For B.  With the given **xy coordinate values for a dotted trace** (in Excel sheet
     1; data in a column for a trace) and **attribute values** for each trace (in
     sheet 2; values in a column corresponding to a trace sharing the same column
