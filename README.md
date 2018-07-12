@@ -5,7 +5,7 @@ For A.  With the given **xyz coordinate values for points** and **attribute valu
 >   Run *MyPatch.m* which will call functions *ellipsoid_ex2im.m*,
 >   *ellipsoid_im2ex.m*, *ellipsoidfit.m*, *ellipsoidfit_iterative.m*,
 >   *ellipsoidfit_residuals.m*, *ellipsoidfit_simple.m*, *is_ellipsoid.m*,
->   *rot2quat.m*, *quat2rot.m*, *plot_ellipsoid.m*, using **xyz.xls** and point
+>   *rot2quat.m*, *quat2rot.m*, and *plot_ellipsoid.m*, using **xyz.xls** and point
 >   **attribute.xls** as inputs and outputting a 4D figure and a fitted figure.
 # 
 For B.  With the given **xy coordinate values for a dotted trace** (in Excel sheet
@@ -19,5 +19,5 @@ For B.  With the given **xy coordinate values for a dotted trace** (in Excel she
 
 >   Run *Circle_first_rotate_supernova.m* which will call functions *Block.m*,
 >   *LinkAxes.m*, *shrink.m*, and *shrink2.m*, using data in one.xls as input
->   and outputting a Cartesian coordinate system surrounded by a ring-shaped
+>   and outputting a Cartesian coordinate system surrounded by a 
 >   heatmap.
