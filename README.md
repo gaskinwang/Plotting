@@ -1,6 +1,6 @@
-**Tutorial**
+#Tutorial
 
-1.  With the given **xyz coordinate values for points** and **attribute values**
+For A.  With the given **xyz coordinate values for points** and **attribute values**
     for the points, plot a 4D figure and fit a semi-ellipsoid.
 
 >   Run MyPatch.m which will call ellipsoid_ex2im.m, ellipsoid_im2ex.m,
