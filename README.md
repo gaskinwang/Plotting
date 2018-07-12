@@ -1,5 +1,4 @@
-#Tutorial
-
+# Tutorial
 For A.  With the given **xyz coordinate values for points** and **attribute values**
     for the points, plot a 4D figure and fit a semi-ellipsoid.
 
