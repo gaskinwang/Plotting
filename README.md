@@ -42,5 +42,6 @@ For D.  With the given **XY coordinate values for a scatterplot**, plot a collec
 
 >   Run *MainFun2.m* which calls functions *plot_mean_sem.m* and *plot_star.m*,
 >   using data.xlsx as input and outputting a color-coded scatterplot with mean
->   ± sem.
+>   ± sem and the p value of two-tailed Student's *t*-test displayed as numbers of \*.
+
 
