@@ -31,6 +31,16 @@ For C.  With the given **XY coordinate values for a dotted trace** (in Excel she
     y-value of the terminal dots forming a ring-shaped heatmap. A line directs a
     sub-heatmap to its corresponding trace via connecting to the terminal dot.
 
->   Run *Circle_second_with_time_supernova.m* which will call functions
+>   Run *Circle_second_with_time_supernova.m* which calls functions
 >   *Block.m*, using **data in one.xlsx** as input and outputting a hypsographic
 >   system surrounded by a heatmap.
+# 
+For D.  With the given **XY coordinate values** for a scatterplot, plot a collection
+    of points using a Cartesian coordinate with an additional variable being
+    displayed—the points are color-coded by local density on the vertical axis
+    for a set of data, like a heatmap.
+
+>   Run *MainFun2.m* which calls functions *plot_mean_sem.m* and *plot_star.m*,
+>   using data.xlsx as input and outputting a color-coded scatterplot with mean
+>   ± sem.
+
