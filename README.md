@@ -35,7 +35,7 @@ For C.  With the given **XY coordinate values for a dotted trace** (in Excel she
 >   *Block.m*, using **data in one.xlsx** as input and outputting a hypsographic
 >   system surrounded by a heatmap.
 # 
-For D.  With the given **XY coordinate values** for a scatterplot, plot a collection
+For D.  With the given **XY coordinate values for a scatterplot**, plot a collection
     of points using a Cartesian coordinate with an additional variable being
     displayed—the points are color-coded by local density on the vertical axis
     for a set of data, like a heatmap.
