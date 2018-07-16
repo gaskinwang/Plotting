@@ -43,5 +43,18 @@ For D.  With the given **XY coordinate values for a scatterplot**, plot a collec
 >   Run *MainFun2.m* which calls functions *plot_mean_sem.m* and *plot_star.m*,
 >   using data.xlsx as input and outputting a color-coded scatterplot with mean
 >   ± sem and the p value of two-tailed Student's *t*-test displayed as numbers of \*.
+# 
+For E.  With the given data characterized by multiply sets, five elements repeated
+    in each set, plot a set-based schematic with multiply Cartesian coordinate
+    systems to show the proportion of each element. Each set of the raw data is
+    in a row of **Data.xlsx**.
+
+>   1.  Copy/paste the data to **Data2sheets.xlsx with a macro** to rearrange the
+>       members of a row to an Excel sheet. Delete the first sheet with the raw data
+>       and save.
+
+>   2.  Run testGrid2.m call *get_column.m* and *init.m*, using **Data2sheets.xlsx**
+>       as input and outputting a set-based statistical graph.
+
 
 
