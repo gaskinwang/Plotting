@@ -55,6 +55,4 @@ For E.  With the given data characterized by multiply sets, five elements repeat
 
 >   2.  Run testGrid2.m call *get_column.m* and *init.m*, using **Data2sheets.xlsx**
 >       as input and outputting a set-based statistical graph.
-
-
-
+![image](https://github.com/gaskinwang/ShowData/blob/master/macrofigure.png)
