@@ -44,15 +44,25 @@ For D.  With the given **XY coordinate values for a scatterplot**, plot a collec
 >   using data.xlsx as input and outputting a color-coded scatterplot with mean
 >   ± sem and the p value of two-tailed Student's *t*-test displayed as numbers of \*.
 # 
-For E.  With the given data characterized by multiply sets, five elements repeated
-    in each set, plot a set-based schematic with multiply Cartesian coordinate
-    systems to show the proportion of each element. Each set of the raw data is
-    in a row of **Data.xlsx**.
+For E.  With the given data characterized by multiply sets, five (or less) elements
+    repeated in each set, plot a set-based schematic with multiply Cartesian
+    coordinate systems to display the proportion of each element in a set:
+    Relative size of dots stand for the proportions; the highest occurrence
+    element is shown in the center of a coordinate system. Starting at row no.1,
+    each set of the raw data is in a row of **Data.xlsx**.
 
->   1.  Copy/paste the data to **Data2sheets.xlsx with a macro** to rearrange the
->       members of a row to an Excel sheet. Delete the first sheet with the raw data
->       and save.
+>   1.  Copy/paste the data to **Data2sheets.xlsm with a macro**.
 
->   2.  Run testGrid2.m call *get_column.m* and *init.m*, using **Data2sheets.xlsx**
->       as input and outputting a set-based statistical graph.
+>   2.  Double-click any cell and wait for same time (depending on the column
+>       numbers) to make the macro run in Excel version 2016 to relocate members of
+>       a column to a new Excel sheet (named as 1, 2, 3…), orderly. See the
+>       **Figure**.
+
+>   3.  Delete the ‘sheet1’ (i.e., the raw data) and save to
+>       **Data_in_sheets.xlsx**.
+
+>   4.  Run testGrid2.m call *get_column.m* and *init.m*, using
+>       **Data_in_sheets.xlsx** as input and outputting a set-based statistical
+>       graph.
+
 ![image](https://github.com/gaskinwang/ShowData/blob/master/macrofigure.png)
