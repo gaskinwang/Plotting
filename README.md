@@ -44,8 +44,8 @@ For D.  With the given **XY coordinate values for a scatterplot**, plot a collec
 >   using data.xlsx as input and outputting a color-coded scatterplot with mean
 >   ± sem and the p value of two-tailed Student's *t*-test displayed as numbers of \*.
 # 
-For E.  With the given data characterized by multiply sets, five (or less) elements
-    repeated in each set, plot a set-based schematic with multiply Cartesian
+For E.  With the given data characterized by multiple sets, five (or less) elements
+    repeated in each set, plot a set-based schematic with multiple Cartesian
     coordinate systems to display the proportion of each element in a set:
     Relative size of dots stand for the proportions; the highest occurrence
     element is shown in the center of a coordinate system. Starting at row no.1,
