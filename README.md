@@ -36,8 +36,8 @@ For C.  With the given **XY coordinate values for a dotted trace** (in Excel she
 >   system surrounded by a heatmap.
 # 
 For D.  With the given **XY coordinate values for a scatterplot**, plot a collection
-    of points using a Cartesian coordinate with an additional variable being
-    displayed—the points are color-coded by local density on the vertical axis
+    of dots using a Cartesian coordinate with an additional variable being
+    displayed—the dots are color-coded by local density on the vertical axis
     for a set of data, like a heatmap.
 
 >   Run *MainFun2.m* which calls functions *plot_mean_sem.m* and *plot_star.m*,
@@ -47,7 +47,7 @@ For D.  With the given **XY coordinate values for a scatterplot**, plot a collec
 For E.  With the given data characterized by multiple sets, five (or less) elements
     repeated in each set, plot a set-based schematic with multiple Cartesian
     coordinate systems to display the proportion of each element in a set:
-    Relative size of dots stand for the proportions; the highest occurrence
+    Relative size of discs stands for their proportions; the highest occurrence
     element is shown in the center of a coordinate system. Starting at row no.1,
     each set of the raw data is in a row of **Data.xlsx**.
 
