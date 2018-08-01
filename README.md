@@ -1,6 +1,6 @@
 # Tutorial
-For A.  With the given **XYZ coordinate values for points** and **attribute values**
-    for the points, plot a 4D figure and fit a semi-ellipsoid.
+For A.  With the given **xyz coordinate values for points** and **attribute values**
+    for the points, the code plots a 4D figure and fit a semi-ellipsoid.
 
 >   Run *MyPatch.m* which will call functions *ellipsoid_ex2im.m*,
 >   *ellipsoid_im2ex.m*, *ellipsoidfit.m*, *ellipsoidfit_iterative.m*,
@@ -8,11 +8,11 @@ For A.  With the given **XYZ coordinate values for points** and **attribute valu
 >   *rot2quat.m*, *quat2rot.m*, and *plot_ellipsoid.m*, using **xyz.xls** and point
 >   **attribute.xls** as inputs and outputting a 4D figure and a fitted figure.
 # 
-For B.  With the given **XY coordinate values for a dotted trace** (in Excel sheet1; 
+For B.  With the given **xy coordinate values for a dotted trace** (in Excel sheet1; 
     data in two-neighbored columns for a trace—odd-numbered columns for x;
     even-numbered columns for y) and expected **attribute values** to be
     presented for each trace (in sheet2; values in a column corresponding to a
-    trace sharing the same column number), plot the traces with the exaggerated
+    trace sharing the same column number), the code plots the traces with the exaggerated
     terminal dots in a 2D Cartesian coordinate system and column-shaped
     sub-heatmaps arranged based on the y-value of the terminal dots forming a
     ring-shaped heatmap. A line directs a sub-heatmap to its corresponding trace
@@ -22,11 +22,11 @@ For B.  With the given **XY coordinate values for a dotted trace** (in Excel she
 >   *LinkAxes.m*, *shrink.m*, and *shrink2.m*, using **data in one.xlsx** as
 >   input and outputting a Cartesian coordinate system surrounded by a heatmap.
 # 
-For C.  With the given **XY coordinate values for a dotted trace** (in Excel sheet1; 
+For C.  With the given **xy coordinate values for a dotted trace** (in Excel sheet1; 
     data two-neighbored columns for a trace­—odd-numbered columns for x;
     even-numbered columns for y) and expected **attribute values** to be
     presented for each trace (in sheet2; values in a column corresponding to a
-    trace in order), plot the traces with the exaggerated terminal dots in a
+    trace in order), the code plots the traces with the exaggerated terminal dots in a
     ‘hypsographic map’ and column-shaped sub-heatmaps arranged based on the
     y-value of the terminal dots forming a ring-shaped heatmap. A line directs a
     sub-heatmap to its corresponding trace via connecting to the terminal dot.
@@ -35,7 +35,7 @@ For C.  With the given **XY coordinate values for a dotted trace** (in Excel she
 >   *Block.m*, using **data in one.xlsx** as input and outputting a hypsographic
 >   system surrounded by a heatmap.
 # 
-For D.  With the given **XY coordinate values for a scatterplot**, plot a collection
+For D.  With the given **xy coordinate values for a scatterplot**, the code plots a collection
     of dots using a Cartesian coordinate with an additional variable being
     displayed—the dots are color-coded by local density on the vertical axis
     for a set of data, like a heatmap.
@@ -45,7 +45,7 @@ For D.  With the given **XY coordinate values for a scatterplot**, plot a collec
 >   ± sem and the p value of two-tailed Student's *t*-test displayed as numbers of \*.
 # 
 For E.  With the given data characterized by multiple sets, five (or less) elements
-    repeated in each set, plot a set-based schematic with multiple Cartesian
+    repeated in each set, the code plots a set-based schematic with multiple Cartesian
     coordinate systems to display the proportion of each element in a set:
     Relative size of discs stands for their proportions; the highest occurrence
     element is shown in the center of a coordinate system. Starting at row no.1,
